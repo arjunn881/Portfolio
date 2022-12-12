@@ -3,21 +3,13 @@
 .contact {
   background-color: darkorange;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 
   @include mobile {
     flex-direction: column;
   }
 
-  .left {
-    margin-left: 100px;
-    flex: 1;
-    overflow: hidden;
 
-    img {
-      height: 100%;
-    }
-  }
   .right {
     flex: 1;
     display: flex;
